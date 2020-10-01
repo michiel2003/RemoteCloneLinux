@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="script.js"></script>
+</head>
+
+<body style="padding: 0px; margin: 0px;" onload="BallHandler();">
+    <div style="display:flex;justify-content:center;align-items:baseline;">
+        <div style="width: 800px; height: 600px; position: fixed;border: 1px solid black;">
+            <div id="pong1"
+                 style="background-color: black; height: 100px; width: 10px; margin-left: 10px; margin-top:10px; top: 240px; position: absolute; border-radius: 100px;">
+            </div>
+            <div id="ball" style="height:20px; width:20px; border-radius:50%; background-color:black; left:380px; top:280px; position: absolute;"></div>
+            <div id="pong2"
+                 style="background-color: black; height: 100px; width: 10px; margin-right: 10px; margin-top:10px; top: 240px; position: absolute; right: 0; border-radius: 100px;">
+            </div>
+            <strong><p id="score" style="font-family: Courier New; font-size: 100px; position: absolute;left: 50%; transform: translate(-50%, -50%);">0     -       0</p></strong>
+        </div>
+    </div>
+</body>
+
+</html>
